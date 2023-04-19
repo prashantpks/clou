@@ -310,6 +310,7 @@ void DetectorJob::output_execution(const Leakage& leak) {
         
         // Changed by github/prashantpks
         ofs << "\n-------As instructed by you this line should be printed in the output----------:D\n";
+        ofs << "\n-------Teammates names: Prashant, Prateek, Parth, Rituparna and Manaswita--------\n";
     }
     
     // print short debug locations

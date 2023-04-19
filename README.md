@@ -66,6 +66,7 @@ For example, to run a single test for benchmark `pht` looking for Spectre v1 lea
 ```bash
 $ /clou/scripts/run-bench.sh -t v1 -x udt pht
 ```
+`Note: This will create the directory pht-udt-out in scripts directory with some semget warnings in the terminal.`
 
 This will run the `./run-pht.sh` script with required parameters which will run the test suite of pht whose functions are present in `/test` folder as pht1.c....pht15.c.
 The src folder has all the required functionalities of clou such as creating cfg, then aeg and passing it to z3 solver and returning the transmitters and fenced llvm IR. This whole functionality of clou has been linked while generating llvm IR for let say pht1.c using the **libclou.so** linker.

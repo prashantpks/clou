@@ -75,11 +75,11 @@ The src folder has all the required functionalities of clou such as creating cfg
 * This folder has several subfolders having results of litmus test-suite **pht**.
 * Open /pht1 folder, it has several files, leakages.txt, transmitters.txt and many others.
 * To get to know more about the result of test functions, which is orginally present in `clou/test` folder as pht1.c and many other test functions.
-* The instructions and the functions from the llvm IR are shown in `clou/louscripts/pht1/lkg/victim_function_v01/8-10-15.txt` for the test function pht1.c file.
+* The instructions and the functions from the llvm IR are shown in `clou/scripts/pht-udt-out/pht1/lkg/victim_function_v01/8-10-15.txt` for the test function pht1.c file.
 
 ## Remarks
-As told by the instructor, we have changed the part of `clou/src/leakge/leakage.cc` file so that the changes made must be reflected to the output.
-After running the above example cmd, the change will be reflected in the  `clou/louscripts/pht1/lkg/victim_function_v01/8-10-15.txt` file at the last line.
+As told by the instructor, we have changed the **line number 312** of `clou/src/leakge/leakage.cc` file so that the changes made must be reflected to the output.
+After running the above example cmd, the change will be reflected in the  `clou/scripts/pht-udt-out/pht1/lkg/victim_function_v01/8-10-15.txt` file at the last line.
 
 
 

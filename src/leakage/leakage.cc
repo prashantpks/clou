@@ -307,6 +307,9 @@ void DetectorJob::output_execution(const Leakage& leak) {
             const bool taint = node.attacker_taint;
             ofs << ref << " " << taint << "\n";
         }
+        
+        // Changed by github/prashantpks
+        ofs << "\n-------As instructed by you this line should be printed in the output----------:D\n";
     }
     
     // print short debug locations
